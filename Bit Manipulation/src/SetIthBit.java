@@ -1,0 +1,10 @@
+public class SetIthBit {
+    public static void main(String[] args) {
+        int n = 9;
+        int i = 2;
+        System.out.println(set(n,i));
+    }
+    static int set(int n,int i){
+        return(n|(1<<i));
+    }
+}
